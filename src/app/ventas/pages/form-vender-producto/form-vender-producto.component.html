@@ -1,0 +1,56 @@
+<main>
+  <div class="container">
+    <div class="content-wrapper">
+      <h3>Datos del usuario</h3>
+      <form [formGroup]="miFormulario" (ngSubmit)="addProduct()" class="form-add-post">
+        <div class="column">
+          <!-- Primera columna -->
+          <div class="input-box">
+            <label class="mat-label">Nombre</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Nombre" formControlName="productName" required>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <label class="mat-label">Descripcion</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Descripcion" formControlName="producDescription" required>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <label class="mat-label">Categoria</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Categoria" formControlName="productCategory" required>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="column">
+          <!-- Segunda columna -->
+
+          <div class="input-box">
+            <label class="mat-label">Precio de venta</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Precio de venta" formControlName="ProductPrecioDeVenta" required>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <label class="mat-label">Precio regular</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Precio regular" formControlName="ProductPrecioRegular" required>
+            </div>
+          </div>
+
+        </div>
+        <button type="submit" mat-raised-button color="primary">Add</button>
+
+      </form>
+    </div>
+  </div>
+</main>
+
+

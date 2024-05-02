@@ -1,0 +1,35 @@
+<div class ="table-wrapper">
+<h1>Products</h1>
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="id">
+      <th *matHeaderCellDef mat-header-cell> #Id</th>
+      <td *matCellDef="let element" mat-cell>{{ element.id }}</td>
+    </ng-container>
+    <ng-container matColumnDef="name">
+      <th *matHeaderCellDef mat-header-cell>Name</th>
+      <td *matCellDef="let element" mat-cell>{{ element.name }}</td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <th *matHeaderCellDef mat-header-cell>Age</th>
+      <td *matCellDef="let element" mat-cell>{{ element.description}}</td>
+    </ng-container>
+    <ng-container matColumnDef="category">
+      <th *matHeaderCellDef mat-header-cell>Age</th>
+      <td *matCellDef="let element" mat-cell>{{ element.category}}</td>
+    </ng-container>
+    <ng-container matColumnDef="precio_venta">
+      <th *matHeaderCellDef mat-header-cell>Age</th>
+      <td *matCellDef="let element" mat-cell>{{ element.precioventa}}</td>
+    </ng-container>
+    <ng-container matColumnDef="precio_regular">
+      <th *matHeaderCellDef mat-header-cell>Age</th>
+      <td *matCellDef="let element" mat-cell>{{ element.precioregular}}</td>
+    </ng-container>
+    <ng-container matColumnDef="slug">
+      <th *matHeaderCellDef mat-header-cell>Age</th>
+      <td *matCellDef="let element" mat-cell>{{ element.slug}}</td>
+    </ng-container>
+    <tr *matHeaderRowDef="displayedColumns" mat-header-row></tr>
+    <tr *matRowDef="let row; columns:displayedColumns" [ngClass]="{'editable-row': productData.id === row.id }" mat-row></tr>
+  </table>
+</div>
