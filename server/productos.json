@@ -1,10 +1,10 @@
 {
   "productos": [
     {
-      "_id": "1",
-      "nombre": "Audifonos",
-      "descripcion": "Blanco",
-      "categoria": [
+      "id": "1",
+      "name": "Audifonos",
+      "description": "Blanco",
+      "category": [
         "Microfonos",
         "Tecnologia"
       ],
@@ -14,17 +14,16 @@
         "../../assets/img/products/technology/3.jpg",
         "../../assets/img/products/technology/4.jpg"
       ],
-      "precio_venta": 225,
-      "precio_regular": 345,
+      "precioventa": 225,
+      "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-audifonos",
-      "id": "94cf"
+      "slug": "tipo-audifonos"
     },
     {
-      "_id": "2",
-      "nombre": "Microfono gris",
-      "descripcion": "Asul",
-      "categoria": [
+      "id": "2",
+      "name": "Microfono gris",
+      "description": "Asul",
+      "category": [
         "Microfonos",
         "Tecnologia"
       ],
@@ -34,17 +33,16 @@
         "../../assets/img/products/technology/3.jpg",
         "../../assets/img/products/technology/4.jpg"
       ],
-      "precio_venta": 225,
-      "precio_regular": 345,
+      "precioventa": 225,
+      "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-microfono",
-      "id": "e7ab"
+      "slug": "tipo-microfono"
     },
     {
-      "_id": "3",
-      "nombre": "Computadora",
-      "descripcion": "Metalica",
-      "categoria": [
+      "id": "3",
+      "name": "Computadora",
+      "description": "Metalica",
+      "category": [
         "Computadoras",
         "Tecnologia"
       ],
@@ -54,17 +52,16 @@
         "../../assets/img/products/technology/2.jpg",
         "../../assets/img/products/technology/4.jpg"
       ],
-      "precio_venta": 2325,
-      "precio_regular": 3445,
+      "precioventa": 2325,
+      "precioregular": 3445,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora",
-      "id": "a235"
+      "slug": "tipo-computadora"
     },
     {
-      "_id": "4",
-      "nombre": "Audifonos",
-      "descripcion": "Rojos",
-      "categoria": [
+      "id": "4",
+      "name": "Audifonos",
+      "description": "Rojos",
+      "category": [
         "Microfonos",
         "Tecnologia"
       ],
@@ -74,11 +71,10 @@
         "../../assets/img/products/technology/2.jpg",
         "../../assets/img/products/technology/3.jpg"
       ],
-      "precio_venta": 245,
-      "precio_regular": 445,
+      "precioventa": 245,
+      "precioregular": 445,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-audifonos",
-      "id": "f9a7"
+      "slug": "tipo-audifonos"
     },
     {
       "id": "txrroqlx4zj",
@@ -98,6 +94,36 @@
       "precioventa": "123",
       "precioregular": "123",
       "created_at": "2024-05-02T01:59:55.375Z",
+      "slug": ""
+    },
+    {
+      "id": "izwoswcogzd",
+      "name": "Laptop",
+      "description": "2da mano",
+      "category": "Tecnologia",
+      "precioventa": "1234",
+      "precioregular": "2345",
+      "created_at": "2024-05-02T15:46:27.589Z",
+      "slug": ""
+    },
+    {
+      "id": "qdv7x6g68po",
+      "name": "Audifono",
+      "description": "Color blanco",
+      "category": "Audifonos,Tecnologia",
+      "precioventa": "1234",
+      "precioregular": "2345",
+      "created_at": "2024-05-02T16:38:48.404Z",
+      "slug": ""
+    },
+    {
+      "id": "ctvhqf4ue9r",
+      "name": "compu",
+      "description": "sSdfs",
+      "category": "fxfsghrs",
+      "precioventa": "1515",
+      "precioregular": "185199",
+      "created_at": "2024-05-02T16:58:40.027Z",
       "slug": ""
     }
   ]
