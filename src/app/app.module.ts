@@ -10,7 +10,21 @@ import { HeaderComponent } from './public/components/header/header.component';
 import { SectionComponent } from './public/components/section/section.component';
 import { SignupComponent } from './public/components/auth/signup/signup.component';
 import { SigninComponent } from './public/components/auth/signin/signin.component';
-
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {HttpClientModule} from "@angular/common/http";
+import {MatInputModule} from "@angular/material/input";
+import {MatButtonModule} from "@angular/material/button";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {MatTableModule} from "@angular/material/table";
+import {MatSortModule} from "@angular/material/sort";
+import {MatIconModule} from "@angular/material/icon";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatCardModule} from "@angular/material/card";
+import {MatGridListModule} from "@angular/material/grid-list";
+import {ProductoService} from "./public/services/producto.service";
+import {MatPaginatorModule} from "@angular/material/paginator";
+import { ProductsComponent } from './buying/pages/products/products.component';
+import { ProductCreateAndEditComponent } from './buying/components/product-create-and-edit/product-create-and-edit.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,14 +33,31 @@ import { SigninComponent } from './public/components/auth/signin/signin.componen
     HeaderComponent,
     SectionComponent,
     SignupComponent,
-    SigninComponent
+    SigninComponent,
+    ProductsComponent,
+    ProductCreateAndEditComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatTableModule,
+    MatSortModule,
+    MatIconModule,
+    MatPaginatorModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatGridListModule
+
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    ProductoService
   ],
   bootstrap: [AppComponent]
 })
