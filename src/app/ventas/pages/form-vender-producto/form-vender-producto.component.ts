@@ -9,21 +9,18 @@ import {Product} from "../../model/product.entity";
   styleUrl: './form-vender-producto.component.css'
 })
 export class FormVenderProductoComponent {
-  constructor(private ventasService:VentasAPIService){
-
-  }
-
+  constructor(private ventasService: VentasAPIService) {}
 
   miFormulario: FormGroup = new FormGroup({
     productName: new FormControl('', Validators.required),
     producDescription: new FormControl('', Validators.required),
     productCategory: new FormControl('', Validators.required),
     ProductPrecioDeVenta: new FormControl('', Validators.required),
-    ProductPrecioRegular: new FormControl('', Validators.required)
-
+    ProductPrecioRegular: new FormControl('', Validators.required),
+    ProductImagen: new FormControl('', [Validators.required, Validators.pattern('(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)')])
   });
 
-  addProduct(){
+addProduct() {
     //this.ventasService.getAll().subscribe((productos:any)=>{console.log(productos)})
     // random id
     //let id = Math.floor(Math.random() * 1000);
@@ -35,8 +32,9 @@ export class FormVenderProductoComponent {
     let productCategory=this.miFormulario.get("productCategory")?.value;
     let ProductPrecioDeVenta=this.miFormulario.get("ProductPrecioDeVenta")?.value;
     let ProductPrecioRegular=this.miFormulario.get("ProductPrecioRegular")?.value;
+    let ProductImagen=this.miFormulario.get("ProductImagen")?.value;
     console.log(productName)
-    const product = new Product(id,productName,producDescription,productCategory,ProductPrecioDeVenta,ProductPrecioRegular);
+    const product = new Product(id,productName,producDescription,productCategory,ProductPrecioDeVenta,ProductPrecioRegular,ProductImagen);
 
     this.ventasService.create(product).subscribe((response) => {
       console.log('Group created successfully', response);

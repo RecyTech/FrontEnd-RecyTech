@@ -1,103 +1,83 @@
 {
   "productos": [
     {
-      "_id": "1",
-      "nombre": "Audifonos",
-      "descripcion": "Blanco",
-      "categoria": [
+      "id": "1",
+      "name": "Audifonos",
+      "description": "Blanco",
+      "category": [
         "Microfonos",
         "Tecnologia"
       ],
-      "imagenUrl": [
-        "../../assets/img/products/technology/1.jpg",
-        "../../assets/img/products/technology/2.jpg",
-        "../../assets/img/products/technology/3.jpg",
-        "../../assets/img/products/technology/4.jpg"
-      ],
-      "precio_venta": 225,
-      "precio_regular": 345,
+      "imagenUrl": "../../assets/img/products/technology/1.jpg",
+      "precioventa": 225,
+      "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-audifonos",
-      "id": "94cf"
+      "slug": "tipo-audifonos"
     },
     {
-      "_id": "2",
-      "nombre": "Microfono gris",
-      "descripcion": "Asul",
-      "categoria": [
+      "id": "2",
+      "name": "Microfono gris",
+      "description": "Asul",
+      "category": [
         "Microfonos",
         "Tecnologia"
       ],
-      "imagenUrl": [
-        "../../assets/img/products/technology/2.jpg",
-        "../../assets/img/products/technology/1.jpg",
-        "../../assets/img/products/technology/3.jpg",
-        "../../assets/img/products/technology/4.jpg"
-      ],
-      "precio_venta": 225,
-      "precio_regular": 345,
+      "imagenUrl": "../../assets/img/products/technology/2.jpg",
+      "precioventa": 225,
+      "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-microfono",
-      "id": "e7ab"
+      "slug": "tipo-microfono"
     },
     {
-      "_id": "3",
-      "nombre": "Computadora",
-      "descripcion": "Metalica",
-      "categoria": [
+      "id": "3",
+      "name": "Computadora",
+      "description": "Metalica",
+      "category": [
         "Computadoras",
         "Tecnologia"
       ],
-      "imagenUrl": [
-        "../../assets/img/products/technology/3.jpg",
-        "../../assets/img/products/technology/1.jpg",
-        "../../assets/img/products/technology/2.jpg",
-        "../../assets/img/products/technology/4.jpg"
-      ],
-      "precio_venta": 2325,
-      "precio_regular": 3445,
+      "imagenUrl": "../../assets/img/products/technology/3.jpg",
+      "precioventa": 2325,
+      "precioregular": 3445,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora",
-      "id": "a235"
+      "slug": "tipo-computadora"
     },
     {
-      "_id": "4",
-      "nombre": "Audifonos",
-      "descripcion": "Rojos",
-      "categoria": [
+      "id": "4",
+      "name": "Audifonos",
+      "description": "Rojos",
+      "category": [
         "Microfonos",
         "Tecnologia"
       ],
       "imagenUrl": [
-        "../../assets/img/products/technology/4.jpg",
-        "../../assets/img/products/technology/1.jpg",
-        "../../assets/img/products/technology/2.jpg",
-        "../../assets/img/products/technology/3.jpg"
+        "../../assets/img/products/technology/4.jpg"
       ],
-      "precio_venta": 245,
-      "precio_regular": 445,
+      "precioventa": 245,
+      "precioregular": 445,
       "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-audifonos",
-      "id": "f9a7"
+      "slug": "tipo-audifonos"
     },
     {
-      "id": "txrroqlx4zj",
-      "name": "dsad",
-      "description": "dsad",
-      "category": "dsad",
-      "precioventa": "dasdsa",
-      "precioregular": "dasdsa",
-      "created_at": "2024-05-02T01:38:25.105Z",
+      "id": "9aj63d9nps",
+      "name": "",
+      "description": "",
+      "category": "",
+      "precioventa": "",
+      "precioregular": "",
+      "imagenUrl": "https://hiraoka.com.pe/media/catalog/product/1/3/131772_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=700&canvas=700:560",
+      "created_at": "2024-05-03T22:44:00.679Z",
       "slug": ""
     },
     {
-      "id": "qtoij9rz59n",
-      "name": "salva",
-      "description": "salva",
-      "category": "salva",
+      "id": "dixeevn9ske",
+      "name": "celular",
+      "description": "celular gris",
+      "category": "huawei",
       "precioventa": "123",
-      "precioregular": "123",
-      "created_at": "2024-05-02T01:59:55.375Z",
+      "precioregular": "234",
+      "imagenUrl": "https://promart.vteximg.com.br/arquivos/ids/7571980-1000-1000/image-3e2bd1319c5a4bbfab9949ca9cecef7c.jpg?v=638336972055870000",
+      "created_at": "2024-05-03T22:59:20.138Z",
       "slug": ""
     }
   ]
