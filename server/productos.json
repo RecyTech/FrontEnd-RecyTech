@@ -125,6 +125,16 @@
       "precioregular": "185199",
       "created_at": "2024-05-02T16:58:40.027Z",
       "slug": ""
+    },
+    {
+      "id": "m32ojjlcl7d",
+      "name": "Celular",
+      "description": "Huawei",
+      "category": "Celulares",
+      "precioventa": "325",
+      "precioregular": "453",
+      "created_at": "2024-05-03T21:41:42.305Z",
+      "slug": ""
     }
   ]
 }
