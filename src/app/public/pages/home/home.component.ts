@@ -14,7 +14,7 @@ import {VentasAPIService} from "../../../ventas/services/ventas-api.service";
 export class HomeComponent implements OnInit, AfterViewInit {
   productData: Product;
   dataSource!: MatTableDataSource<any>;
-  displayedColumns: string[] = ['_id','nombre', 'descripcion', 'categoria', 'imagenUrl', 'precio_venta', 'precio_regular', 'created_at', 'slug'];
+  displayedColumns: string[] = ['id','nombre', 'descripcion', 'categoria', 'imagenUrl', 'precio_venta', 'precio_regular', 'created_at', 'slug'];
   @ViewChild(MatPaginator, { static: false}) paginator!: MatPaginator;
   @ViewChild(MatSort, { static: false}) sort!: MatSort;
   isEditMode: boolean;

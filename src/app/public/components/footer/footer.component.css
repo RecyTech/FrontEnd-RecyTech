@@ -1,0 +1,10 @@
+.main {
+  background-color: #bcaaa4;
+}
+.con {
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+.conten {
+  background-color: #000000;
+}
