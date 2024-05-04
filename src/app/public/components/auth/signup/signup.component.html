@@ -1,35 +1,39 @@
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
-    <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-      <h1 class="title-font font-medium text-3xl text-gray-900">Slow-carb next level shoindcgoitch ethical authentic, poko scenester</h1>
-      <p class="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p>
-    </div>
-    <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-      <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Register</h2>
+<main>
+  <div class="container">
+    <div class="content-wrapper">
+      <h3>Register</h3>
       <form [formGroup]="newUser" (ngSubmit)="addUser()" class="form-add-post">
-        <div class="relative mb-4">
-          <mat-form-field>
-            <input matInput type="text" placeholder="Full Name" formControlName="name" required>
-          </mat-form-field>
+        <div class="column">
+          <div class="input-box">
+            <label class="mat-label">Full Name</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Full Name" formControlName="name" required>
+            </div>
+          </div>
+          <div class="input-box">
+            <label class="mat-label">E-Mail</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="E-Mail" formControlName="email" required>
+            </div>
+          </div>
         </div>
-        <div class="relative mb-4">
-          <mat-form-field>
-            <input matInput type="text" placeholder="E-Mail" formControlName="email" required>
-          </mat-form-field>
-        </div>
-        <div class="relative mb-4">
-          <mat-form-field>
-            <input matInput type=text placeholder="Password" formControlName="password" required>
-          </mat-form-field>
-        </div>
-        <div class="relative mb-4">
-          <mat-form-field>
-            <input matInput placeholder="Confirm Password" name="confirm-password" required>
-          </mat-form-field>
+        <div class="column">
+          <div class="input-box">
+            <label class="mat-label">Password</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Password" formControlName="password" required>
+            </div>
+          </div>
+          <div class="input-box">
+            <label class="mat-label">Confirm Password</label>
+            <div class="mat-form-field">
+              <input matInput type="text" placeholder="Confirm Password" required>
+            </div>
+          </div>
         </div>
         <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Sign up</button>
       </form>
       <!--<p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>-->
     </div>
   </div>
-</section>
+</main>
