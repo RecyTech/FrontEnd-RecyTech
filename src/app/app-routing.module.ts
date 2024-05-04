@@ -8,6 +8,7 @@ import {PaymentMethodComponent} from "./public/components/payment-method/payment
 
 const routes: Routes = [
   { path:'', component: HomeComponent },
+  { path:'home', component: HomeComponent },
   { path:'signin', component: SigninComponent },
   { path:'signup', component: SignupComponent },
   { path:'ventas', component: FormVenderProductoComponent },

@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {VentasAPIService} from "../../services/ventas-api.service";
 import {Product} from "../../model/product.entity";
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-form-vender-producto',
   templateUrl: './form-vender-producto.component.html',
   styleUrl: './form-vender-producto.component.css'
 })
 export class FormVenderProductoComponent {
-  constructor(private ventasService: VentasAPIService) {}
+  constructor(private ventasService: VentasAPIService, private router: Router) {}
 
   miFormulario: FormGroup = new FormGroup({
     productName: new FormControl('', Validators.required),
@@ -39,6 +39,11 @@ addProduct() {
     this.ventasService.create(product).subscribe((response) => {
       console.log('Group created successfully', response);
     });
+
+    alert('Producto Agregado');
+    this.router.navigate(['']);
+
+
 
   }
 }
