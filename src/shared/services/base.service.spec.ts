@@ -1,9 +1,10 @@
 import { TestBed } from '@angular/core/testing';
 
 import { BaseService } from './base.service';
+import {Product} from "../../app/ventas/model/product.entity";
 
 describe('BaseService', () => {
-  let service: BaseService;
+  let service: BaseService<Product>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
