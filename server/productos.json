@@ -79,6 +79,28 @@
       "imagenUrl": "https://promart.vteximg.com.br/arquivos/ids/7571980-1000-1000/image-3e2bd1319c5a4bbfab9949ca9cecef7c.jpg?v=638336972055870000",
       "created_at": "2024-05-03T22:59:20.138Z",
       "slug": ""
+    },
+    {
+      "id": "1h3ubcq7304h",
+      "name": "Reloj",
+      "description": "Rolex",
+      "category": "Relojes",
+      "precioventa": "56",
+      "precioregular": "123",
+      "imagenUrl": "https://belcorpperu.vtexassets.com/arquivos/ids/274639-800-800?v=638258150526200000&width=800&height=800&aspect=true",
+      "created_at": "2024-05-04T01:15:38.913Z",
+      "slug": ""
+    },
+    {
+      "id": "7f5bw0rlc1e",
+      "name": "licuadora",
+      "description": "licuamax",
+      "category": "Licuadoras",
+      "precioventa": "25",
+      "precioregular": "50",
+      "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87w45jKWVut1GIjKcsq6N697ZL8WKnf65wTtaDRaIJA&s",
+      "created_at": "2024-05-04T01:38:52.876Z",
+      "slug": ""
     }
   ]
 }
