@@ -24,7 +24,7 @@ import {MatSort} from "@angular/material/sort";
 import { MatSelectModule } from "@angular/material/select";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatButtonModule } from "@angular/material/button";
-import { ReactiveFormsModule } from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import { FormVenderProductoComponent } from "./ventas/pages/form-vender-producto/form-vender-producto.component";
@@ -42,28 +42,29 @@ import { PaymentMethodComponent } from './public/components/payment-method/payme
     FormVenderProductoComponent,
     PaymentMethodComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    MatTable,
-    MatSort,
-    MatColumnDef,
-    MatHeaderCell,
-    MatCell,
-    MatHeaderCellDef,
-    MatCellDef,
-    MatRow,
-    MatHeaderRow,
-    MatHeaderRowDef,
-    MatRowDef,
-    MatSelectModule,
-    MatInputModule,
-    MatFormFieldModule,
-    MatCardModule,
-    MatButtonModule,
-    ReactiveFormsModule,
-    HttpClientModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        MatTable,
+        MatSort,
+        MatColumnDef,
+        MatHeaderCell,
+        MatCell,
+        MatHeaderCellDef,
+        MatCellDef,
+        MatRow,
+        MatHeaderRow,
+        MatHeaderRowDef,
+        MatRowDef,
+        MatSelectModule,
+        MatInputModule,
+        MatFormFieldModule,
+        MatCardModule,
+        MatButtonModule,
+        ReactiveFormsModule,
+        HttpClientModule,
+        FormsModule
+    ],
   providers: [
     provideClientHydration(),
     provideAnimationsAsync(),
