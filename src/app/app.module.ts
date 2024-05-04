@@ -9,10 +9,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { HomeComponent } from './public/pages/home/home.component';
 import { FooterComponent } from './public/components/footer/footer.component';
 import { HeaderComponent } from './public/components/header/header.component';
-import { SectionComponent } from './public/components/section/section.component';
 import { SignupComponent } from './public/components/auth/signup/signup.component';
 import { SigninComponent } from './public/components/auth/signin/signin.component';
-import { ProductsComponent } from './public/pages/products/products.component';
 import {
   MatCell,
   MatCellDef,
@@ -30,6 +28,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import { FormVenderProductoComponent } from "./ventas/pages/form-vender-producto/form-vender-producto.component";
+import { PaymentMethodComponent } from './public/components/payment-method/payment-method.component';
 
 // @ts-ignore
 @NgModule({
@@ -38,11 +37,10 @@ import { FormVenderProductoComponent } from "./ventas/pages/form-vender-producto
     HomeComponent,
     FooterComponent,
     HeaderComponent,
-    SectionComponent,
     SignupComponent,
     SigninComponent,
-    ProductsComponent,
-    FormVenderProductoComponent
+    FormVenderProductoComponent,
+    PaymentMethodComponent
   ],
   imports: [
     BrowserModule,
