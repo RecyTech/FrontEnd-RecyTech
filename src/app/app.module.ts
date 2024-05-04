@@ -30,6 +30,7 @@ import {MatInputModule} from '@angular/material/input';
 import { FormVenderProductoComponent } from "./ventas/pages/form-vender-producto/form-vender-producto.component";
 import { PaymentMethodComponent } from './public/components/payment-method/payment-method.component';
 
+import { RouterModule } from '@angular/router';
 // @ts-ignore
 @NgModule({
   declarations: [
@@ -63,7 +64,11 @@ import { PaymentMethodComponent } from './public/components/payment-method/payme
         MatButtonModule,
         ReactiveFormsModule,
         HttpClientModule,
-        FormsModule
+        FormsModule,
+        RouterModule.forRoot([
+          { path: 'home', component: HomeComponent },
+        ])
+
     ],
   providers: [
     provideClientHydration(),
