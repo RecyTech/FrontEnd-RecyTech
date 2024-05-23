@@ -150,6 +150,17 @@
       "imagenUrl": "",
       "created_at": "2024-05-23T07:08:09.536Z",
       "slug": ""
+    },
+    {
+      "id": "jbmz9xvu4fl",
+      "name": "DSA",
+      "description": "",
+      "category": "",
+      "precioventa": 0,
+      "precioregular": 0,
+      "imagenUrl": "",
+      "created_at": "2024-05-23T19:57:06.367Z",
+      "slug": ""
     }
   ]
 }
