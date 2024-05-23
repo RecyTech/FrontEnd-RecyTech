@@ -2,12 +2,13 @@
 
 
 main {
-  height: 100vh; /* Viewport Height */
+  height: 100%; /* Viewport Height */
   width: 100%; /* Viewport Width */
   display: flex;
-  margin-top: 80px;
-
   color: #718096;
+  margin-top: 80px;
+  margin-bottom: 500px;
+  min-height: 100%;
 }
 /* Container styles */
 
@@ -19,16 +20,15 @@ main {
   display: flex;
   align-items: start;
   justify-content: center;
+  margin-bottom: auto;
 }
 
 .section .section-sidebar {
-  background-color: blue;
   height: 100%;
   width: 25%;
 }
 
 .section .section-catalogo {
-  background-color: green;
   min-height: 100%;
   width: 75%;
   display: flex;
