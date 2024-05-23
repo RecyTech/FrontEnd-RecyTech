@@ -1,7 +1,103 @@
-.main {
-  background: linear-gradient(180deg, rgb(126, 178, 90) 100%, rgb(225, 225, 225) 100%);
+*{}
+
+
+main {
+  height: 100vh; /* Viewport Height */
+  width: 100%; /* Viewport Width */
+  display: flex;
+  margin-top: 80px;
+
+  color: #718096;
 }
-.container {
-  padding: 0px 0px;
-  width: 75%; /* Adjust the width as needed */
+/* Container styles */
+
+.section {
+  height: 100vh;
+  width: 100%;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.section .section-sidebar {
+  background-color: blue;
+  height: 100%;
+  width: 25%;
+}
+
+.section .section-catalogo {
+  background-color: green;
+  min-height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-catalogo .catalogo-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  height: 100%;
+  width: 100%;
+  margin-top:64px;
+}
+
+/* Product card styles */
+.product-card {
+  width: 100%;
+  display: flex; /* Utilizar flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: start; /* Centrar verticalmente */
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 1.4286em;
+}
+
+
+
+
+.product-card .product-card-content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  overflow: hidden;
+  background-color: white;
+}
+.product-card-content .image-container{
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.product-card-content .details-container{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+.image-container .product-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.buy-button {
+  background-color: #4299e1;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.buy-button:hover {
+  background-color: #2b6cb0;
 }
