@@ -1,18 +1,10 @@
-main {
-  display: flex;
-  color: #718096;
-  min-height: 100%;
-
-}
-/* Container styles */
-
 .section {
   margin-left: 420px;
   margin-right: 420px;
   display: flex;
   align-items: start;
   justify-content: center;
-  margin-bottom: auto;
+  margin-top: 80px;
 }
 
 .section .section-sidebar {

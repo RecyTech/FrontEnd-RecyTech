@@ -31,6 +31,7 @@ import { FormVenderProductoComponent } from "./ventas/pages/form-vender-producto
 import { PaymentMethodComponent } from './public/components/payment-method/payment-method.component';
 
 import { RouterModule } from '@angular/router';
+import { ProductInfoPageComponent } from './public/pages/product-info-page/product-info-page.component';
 // @ts-ignore
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { RouterModule } from '@angular/router';
     SignupComponent,
     SigninComponent,
     FormVenderProductoComponent,
-    PaymentMethodComponent
+    PaymentMethodComponent,
+    ProductInfoPageComponent
   ],
     imports: [
         BrowserModule,

@@ -1,17 +1,18 @@
 .header {
-
-
   background-color: var(--primary-green-1);
   font-family: var(--font-primary);
   font-size: 16px;
-  position:sticky;
-  height:7.5vh;
+  position:fixed;
+  height:80px;
   top:0;
+  left: 0;
+  right: 0;
   padding-right:420px;
   padding-left:420px;
   display:flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 p {
   font-size: 56px;
