@@ -161,6 +161,83 @@
       "imagenUrl": "",
       "created_at": "2024-05-23T19:57:06.367Z",
       "slug": ""
+    },
+    {
+      "id": "6rjfc0zbzaq",
+      "name": "dsad",
+      "description": "",
+      "category": "",
+      "precioventa": "",
+      "precioregular": "",
+      "imagenUrl": "",
+      "created_at": "2024-05-24T22:45:58.925Z",
+      "slug": ""
+    },
+    {
+      "id": "khtceh6dcp",
+      "name": "dsa",
+      "description": "",
+      "category": "",
+      "precioventa": 0,
+      "precioregular": 0,
+      "imagenUrl": "",
+      "created_at": "2024-05-24T22:56:52.850Z",
+      "slug": ""
+    },
+    {
+      "id": "psu62iw4p6o",
+      "name": "dsadsa",
+      "description": "",
+      "category": "",
+      "precioventa": 0,
+      "precioregular": 0,
+      "imagenUrl": "",
+      "created_at": "2024-05-24T22:56:57.019Z",
+      "slug": ""
+    },
+    {
+      "id": "10a1zu7n0dfl",
+      "name": "dsads",
+      "description": "",
+      "category": "",
+      "precioventa": 0,
+      "precioregular": 0,
+      "imagenUrl": "",
+      "created_at": "2024-05-24T22:57:01.511Z",
+      "slug": ""
+    },
+    {
+      "id": "d01hvladn94",
+      "name": "dsafxz",
+      "description": "",
+      "category": "",
+      "precioventa": 0,
+      "precioregular": 0,
+      "imagenUrl": "",
+      "created_at": "2024-05-24T22:57:06.429Z",
+      "slug": ""
+    },
+    {
+      "id": "vy98uecdft",
+      "name": "dasdsa",
+      "description": "",
+      "category": "",
+      "precioventa": 0,
+      "precioregular": 0,
+      "imagenUrl": "",
+      "created_at": "2024-05-24T23:03:32.166Z",
+      "slug": ""
+    },
+    {
+      "id": "04rvm1nw536f",
+      "name": "aaaa",
+      "description": "",
+      "category": "",
+      "precioventa": 0,
+      "precioregular": 0,
+      "imagenUrl": "",
+      "created_at": "2024-05-24T23:03:42.088Z",
+      "slug": ""
     }
   ]
 }
