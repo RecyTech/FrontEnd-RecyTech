@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import {HttpClient} from "@angular/common/http";
 
 
 @Injectable({
@@ -7,7 +8,8 @@ import { Injectable } from '@angular/core';
 export class ProductoService {
   basePath: string = "http://localhost:3000";
 
-  constructor() {
-
+  constructor(private http:HttpClient) {}
+  getProducto(){
+    return this.http.get(`${this.basePath}`);
   }
 }

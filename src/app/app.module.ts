@@ -27,11 +27,12 @@ import { MatButtonModule } from "@angular/material/button";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
-import { FormVenderProductoComponent } from "./ventas/pages/form-vender-producto/form-vender-producto.component";
+import { FormVenderProductoComponent } from "./product/pages/form-vender-producto/form-vender-producto.component";
 import { PaymentMethodComponent } from './public/components/payment-method/payment-method.component';
 
 import { RouterModule } from '@angular/router';
-import { ProductInfoPageComponent } from './public/pages/product-info-page/product-info-page.component';
+import { ProductInfoPageComponent } from './product/pages/product-info-page/product-info-page.component';
+import { CataloguePageComponent } from './product/pages/catalogue-page/catalogue-page.component';
 // @ts-ignore
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ProductInfoPageComponent } from './public/pages/product-info-page/produ
     SigninComponent,
     FormVenderProductoComponent,
     PaymentMethodComponent,
-    ProductInfoPageComponent
+    ProductInfoPageComponent,
+    CataloguePageComponent
   ],
     imports: [
         BrowserModule,
