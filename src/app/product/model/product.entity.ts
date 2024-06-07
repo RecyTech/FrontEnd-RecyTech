@@ -3,20 +3,18 @@ export class Product {
   name:string;
   description:string;
   category:string;
-  precioventa:number;
-  precioregular:number;
+  precio:string;
   imagenUrl:string;
   created_at:Date;
   slug:string;
 
 
-  constructor(id:string='',name:string='',description:string='',category:string='',precioventa:number=0,precioregular:number=0, imagenUrl:string='' ,slug:string='') {
+  constructor(id:string='',name:string='',description:string='',category:string='',precio:string='', imagenUrl:string='' ,slug:string='') {
     this.id = id;
     this.name = name;
     this.description = description;
     this.category = category;
-    this.precioventa = precioventa;
-    this.precioregular = precioregular;
+    this.precio = precio;
     this.imagenUrl = imagenUrl;
     this.created_at = new Date();
     this.slug = slug;

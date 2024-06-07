@@ -1,21 +1,20 @@
 import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
-import {Product} from "../../../product/model/product.entity";
-import {MatPaginator} from "@angular/material/paginator";
+import {Product} from "../../model/product.entity";
 import {MatTableDataSource} from "@angular/material/table";
+import {MatPaginator} from "@angular/material/paginator";
 import {MatSort} from "@angular/material/sort";
-import {VentasAPIService} from "../../../product/services/ventas-api.service";
-
-
+import {VentasAPIService} from "../../services/ventas-api.service";
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-catalogue-page',
+  templateUrl: './catalogue-page.component.html',
+  styleUrl: './catalogue-page.component.css'
 })
-export class HomeComponent implements OnInit, AfterViewInit {
+export class CataloguePageComponent implements OnInit, AfterViewInit{
+
   productData: Product;
   dataSource!: MatTableDataSource<any>;
-  displayedColumns: string[] = ['id','nombre', 'descripcion', 'categoria', 'imagenUrl', 'precio_venta', 'precio_regular', 'created_at', 'slug'];
+  displayedColumns: string[] = ['id','nombre', 'descripcion', 'categoria', 'imagenUrl', 'precio', 'created_at', 'slug'];
   @ViewChild(MatPaginator, { static: false}) paginator!: MatPaginator;
   @ViewChild(MatSort, { static: false}) sort!: MatSort;
   isEditMode: boolean;

@@ -15,11 +15,10 @@ export class FormVenderProductoComponent {
 
   miFormulario: FormGroup = new FormGroup({
     productName: new FormControl('', Validators.required),
-    producDescription: new FormControl('', Validators.required),
+    productDescription: new FormControl('', Validators.required),
     productCategory: new FormControl('', Validators.required),
-    ProductPrecioDeVenta: new FormControl('', Validators.required),
-    ProductPrecioRegular: new FormControl('', Validators.required),
-    ProductImagen: new FormControl('', [Validators.required, Validators.pattern('(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)')])
+    productPrice: new FormControl('', Validators.required),
+    productImage: new FormControl('', [Validators.required, Validators.pattern('(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)')])
   });
   autoResize(event: Event): void {
     const textarea = event.target as HTMLTextAreaElement;
@@ -35,13 +34,13 @@ export class FormVenderProductoComponent {
 
     let productName=this.miFormulario.get("productName")?.value;
 
-    let ProductPrecioDeVenta=this.miFormulario.get("productPrice")?.value;
+    let ProductPrice=this.miFormulario.get("productPrice")?.value;
     let productCategory=this.miFormulario.get("productCategory")?.value;
-    let ProductImagen=this.miFormulario.get("productImage")?.value;
+    let ProductImage=this.miFormulario.get("productImage")?.value;
     let producDescription=this.miFormulario.get("productDescription")?.value;
 
     console.log(productName)
-    const product = new Product(id,productName,producDescription,productCategory,ProductPrecioDeVenta,ProductImagen);
+    const product = new Product(id,productName,producDescription,productCategory,ProductPrice,ProductImage);
 
     this.ventasService.create(product).subscribe((response) => {
       console.log('Group created successfully', response);

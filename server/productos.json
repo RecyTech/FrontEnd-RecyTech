@@ -9,21 +9,21 @@
         "Tecnologia"
       ],
       "imagenUrl": "../../assets/img/products/technology/1.jpg",
-      "precioventa": 225,
+      "precioventa": 25,
       "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
       "slug": "tipo-audifonos"
     },
     {
       "id": "2",
-      "name": "Microfono gris",
+      "name": "Parlante",
       "description": "Asul",
       "category": [
         "Microfonos",
         "Tecnologia"
       ],
       "imagenUrl": "../../assets/img/products/technology/2.jpg",
-      "precioventa": 225,
+      "precioventa": 25,
       "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
       "slug": "tipo-microfono"
@@ -37,206 +37,19 @@
         "Tecnologia"
       ],
       "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
+      "precioventa": 500,
       "precioregular": 3445,
       "created_at": "2024-04-30T16:51:07.214X",
       "slug": "tipo-computadora"
     },
     {
-      "id": "3",
-      "name": "Computadora",
-      "description": "Metalica",
-      "category": [
-        "Computadoras",
-        "Tecnologia"
-      ],
-      "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
-      "precioregular": 3445,
-      "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora"
-    },
-    {
-      "id": "3",
-      "name": "Computadora",
-      "description": "Metalica",
-      "category": [
-        "Computadoras",
-        "Tecnologia"
-      ],
-      "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
-      "precioregular": 3445,
-      "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora"
-    },
-    {
-      "id": "3",
-      "name": "Computadora",
-      "description": "Metalica",
-      "category": [
-        "Computadoras",
-        "Tecnologia"
-      ],
-      "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
-      "precioregular": 3445,
-      "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora"
-    },
-    {
-      "id": "3",
-      "name": "Computadora",
-      "description": "Metalica",
-      "category": [
-        "Computadoras",
-        "Tecnologia"
-      ],
-      "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
-      "precioregular": 3445,
-      "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora"
-    },
-    {
-      "id": "3",
-      "name": "Computadora",
-      "description": "Metalica",
-      "category": [
-        "Computadoras",
-        "Tecnologia"
-      ],
-      "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
-      "precioregular": 3445,
-      "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora"
-    },
-    {
-      "id": "3",
-      "name": "Computadora",
-      "description": "Metalica",
-      "category": [
-        "Computadoras",
-        "Tecnologia"
-      ],
-      "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
-      "precioregular": 3445,
-      "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora"
-    },
-    {
-      "id": "3",
-      "name": "Computadora",
-      "description": "Metalica",
-      "category": [
-        "Computadoras",
-        "Tecnologia"
-      ],
-      "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
-      "precioregular": 3445,
-      "created_at": "2024-04-30T16:51:07.214X",
-      "slug": "tipo-computadora"
-    },
-    {
-      "id": "d32yf86al",
-      "name": "dsa",
+      "id": "gj1jpz6tzu",
+      "name": "licuadora",
       "description": "",
       "category": "",
-      "precioventa": "",
-      "precioregular": "",
-      "imagenUrl": "",
-      "created_at": "2024-05-23T07:08:09.536Z",
-      "slug": ""
-    },
-    {
-      "id": "jbmz9xvu4fl",
-      "name": "DSA",
-      "description": "",
-      "category": "",
-      "precioventa": 0,
-      "precioregular": 0,
-      "imagenUrl": "",
-      "created_at": "2024-05-23T19:57:06.367Z",
-      "slug": ""
-    },
-    {
-      "id": "6rjfc0zbzaq",
-      "name": "dsad",
-      "description": "",
-      "category": "",
-      "precioventa": "",
-      "precioregular": "",
-      "imagenUrl": "",
-      "created_at": "2024-05-24T22:45:58.925Z",
-      "slug": ""
-    },
-    {
-      "id": "khtceh6dcp",
-      "name": "dsa",
-      "description": "",
-      "category": "",
-      "precioventa": 0,
-      "precioregular": 0,
-      "imagenUrl": "",
-      "created_at": "2024-05-24T22:56:52.850Z",
-      "slug": ""
-    },
-    {
-      "id": "psu62iw4p6o",
-      "name": "dsadsa",
-      "description": "",
-      "category": "",
-      "precioventa": 0,
-      "precioregular": 0,
-      "imagenUrl": "",
-      "created_at": "2024-05-24T22:56:57.019Z",
-      "slug": ""
-    },
-    {
-      "id": "10a1zu7n0dfl",
-      "name": "dsads",
-      "description": "",
-      "category": "",
-      "precioventa": 0,
-      "precioregular": 0,
-      "imagenUrl": "",
-      "created_at": "2024-05-24T22:57:01.511Z",
-      "slug": ""
-    },
-    {
-      "id": "d01hvladn94",
-      "name": "dsafxz",
-      "description": "",
-      "category": "",
-      "precioventa": 0,
-      "precioregular": 0,
-      "imagenUrl": "",
-      "created_at": "2024-05-24T22:57:06.429Z",
-      "slug": ""
-    },
-    {
-      "id": "vy98uecdft",
-      "name": "dasdsa",
-      "description": "",
-      "category": "",
-      "precioventa": 0,
-      "precioregular": 0,
-      "imagenUrl": "",
-      "created_at": "2024-05-24T23:03:32.166Z",
-      "slug": ""
-    },
-    {
-      "id": "04rvm1nw536f",
-      "name": "aaaa",
-      "description": "",
-      "category": "",
-      "precioventa": 0,
-      "precioregular": 0,
-      "imagenUrl": "",
-      "created_at": "2024-05-24T23:03:42.088Z",
+      "precio": "0",
+      "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFtwi0Pfb_44c_3TAslZUAM_2H318NpTIcmA&s",
+      "created_at": "2024-06-07T03:06:05.954Z",
       "slug": ""
     }
   ]
