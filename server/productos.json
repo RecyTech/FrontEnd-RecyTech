@@ -9,21 +9,21 @@
         "Tecnologia"
       ],
       "imagenUrl": "../../assets/img/products/technology/1.jpg",
-      "precioventa": 225,
+      "precioventa": 25,
       "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
       "slug": "tipo-audifonos"
     },
     {
       "id": "2",
-      "name": "Microfono gris",
+      "name": "Parlante",
       "description": "Asul",
       "category": [
         "Microfonos",
         "Tecnologia"
       ],
       "imagenUrl": "../../assets/img/products/technology/2.jpg",
-      "precioventa": 225,
+      "precioventa": 25,
       "precioregular": 345,
       "created_at": "2024-04-30T16:51:07.214X",
       "slug": "tipo-microfono"
@@ -37,7 +37,7 @@
         "Tecnologia"
       ],
       "imagenUrl": "../../assets/img/products/technology/3.jpg",
-      "precioventa": 2325,
+      "precioventa": 500,
       "precioregular": 3445,
       "created_at": "2024-04-30T16:51:07.214X",
       "slug": "tipo-computadora"
