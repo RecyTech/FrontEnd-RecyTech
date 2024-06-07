@@ -1,15 +1,16 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {BaseService} from "../../../shared/services/base.service";
+import {Product} from "../model/product.entity";
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class ProductoService {
-  basePath: string = "http://localhost:3000";
+export class ProductoService extends BaseService<Product>{
 
-  constructor(private http:HttpClient) {}
-  getProducto(){
-    return this.http.get(`${this.basePath}`);
+  constructor(http: HttpClient) {
+    super(http);
+    this.resourceEndpoint = '/producto';
   }
 }
