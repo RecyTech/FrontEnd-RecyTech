@@ -7,24 +7,8 @@
 
   <div class = "section-catalogo">
     <div class = "catalogo-content">
-      <div *ngFor="let producto of dataSource.data" class="product-card">
-        <div class="product-card-content">
-
-          <!-- Contenedor de la imagen -->
-          <div class="image-container">
-            <img
-              [src]="producto.imagenUrl" alt="Imagen del producto" class="product-image"
-              [routerLink]="['producto', producto?.slug]">
-          </div>
 
 
-          <!-- Contenedor de los detalles del producto -->
-          <div class="details-container">
-            <p class="product-name">{{ producto.name }}</p>
-            <p class="sale-price">${{ producto.precio }}</p>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>

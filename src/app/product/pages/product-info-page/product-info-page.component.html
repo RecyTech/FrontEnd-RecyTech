@@ -1,18 +1,19 @@
+
+
 <main>
   <div class="container-img">
-    <img
-      src="../../assets/img/products/technology/2.jpg"
-      alt="imagen-producto"
+    <img alt="imagen-producto"
+         [src]="product?.imagenUrl"
     />
   </div>
   <div class="container-info-product">
     <div class="container-price">
-      <span>Parlante</span>
+      <span>{{product?.name}}</span>
       <i class="fa-solid fa-angle-right"></i>
     </div>
 
     <div class="container-details-product">
-      <h1>$25.00</h1>
+      <h1>{{product?.precio}}</h1>
     </div>
 
     <div class="container-add-cart">
@@ -42,6 +43,7 @@
       </div>
       <div class="text-description">
         <p>
+          {{product?.description}}
         </p>
       </div>
     </div>
