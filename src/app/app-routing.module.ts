@@ -6,7 +6,7 @@ import {HomeComponent} from "./public/pages/home/home.component";
 import {FormVenderProductoComponent} from "./product/pages/form-vender-producto/form-vender-producto.component";
 import {PaymentMethodComponent} from "./public/components/payment-method/payment-method.component";
 import {ProductInfoPageComponent} from "./product/pages/product-info-page/product-info-page.component";
-import {CataloguePageComponent} from "./product/pages/catalogue-page/catalogue-page.component";
+
 
 const routes: Routes = [
   { path:'', component: HomeComponent },
@@ -15,7 +15,6 @@ const routes: Routes = [
   { path:'signup', component: SignupComponent },
   { path:'ventas', component: FormVenderProductoComponent },
   { path:'metodopago', component: PaymentMethodComponent},
-  { path:'catalogue', component: CataloguePageComponent},
   { path:'producto/:id', component: ProductInfoPageComponent}
 ];
 

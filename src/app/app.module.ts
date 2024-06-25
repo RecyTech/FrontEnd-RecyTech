@@ -32,7 +32,7 @@ import { PaymentMethodComponent } from './public/components/payment-method/payme
 
 import { RouterModule } from '@angular/router';
 import { ProductInfoPageComponent } from './product/pages/product-info-page/product-info-page.component';
-import { CataloguePageComponent } from './product/pages/catalogue-page/catalogue-page.component';
+
 // @ts-ignore
 @NgModule({
   declarations: [
@@ -44,8 +44,7 @@ import { CataloguePageComponent } from './product/pages/catalogue-page/catalogue
     SigninComponent,
     FormVenderProductoComponent,
     PaymentMethodComponent,
-    ProductInfoPageComponent,
-    CataloguePageComponent
+    ProductInfoPageComponent
   ],
     imports: [
         BrowserModule,

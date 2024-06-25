@@ -29,6 +29,16 @@
       "imagenUrl": "../../assets/img/products/technology/3.jpg",
       "created_at": "2024-06-25T05:52:17.185Z",
       "slug": "tipo-3"
+    },
+    {
+      "id": "6k9xfm1wcmy",
+      "name": "Celular",
+      "description": "Celular",
+      "category": "Celular",
+      "precio": "123",
+      "imagenUrl": "https://promart.vteximg.com.br/arquivos/ids/7571980-1000-1000/image-3e2bd1319c5a4bbfab9949ca9cecef7c.jpg?v=638336972055870000",
+      "created_at": "2024-06-25T21:53:00.608Z",
+      "slug": "Celular"
     }
   ]
 }
