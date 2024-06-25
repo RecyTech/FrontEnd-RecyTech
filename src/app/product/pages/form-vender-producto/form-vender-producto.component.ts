@@ -38,9 +38,10 @@ export class FormVenderProductoComponent {
     let productCategory=this.miFormulario.get("productCategory")?.value;
     let ProductImage=this.miFormulario.get("productImage")?.value;
     let producDescription=this.miFormulario.get("productDescription")?.value;
+    let productSlug=this.miFormulario.get("productName")?.value;
 
     console.log(productName)
-    const product = new Product(id,productName,producDescription,productCategory,ProductPrice,ProductImage);
+    const product = new Product(id,productName,producDescription,productCategory,ProductPrice,ProductImage,productSlug);
 
     this.ventasService.create(product).subscribe((response) => {
       console.log('Group created successfully', response);
