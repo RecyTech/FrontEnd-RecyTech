@@ -16,6 +16,6 @@ export class ProductoService extends BaseService<Product>{
   }
 
   getProducto() :Observable<Product[]>{
-    return this.http.get<Product[]>('http://localhost:3000/productos');
+    return this.http.get<Product[]>('http://my-json-server.typicode.com/RecyTech/RecyTech-fake-server/productos');
   }
 }
