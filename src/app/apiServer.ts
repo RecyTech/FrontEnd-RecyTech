@@ -1,4 +1,4 @@
 export const apiServer = {
-  serverUrl: 'http://localhost/assets/data/productos.json',
+  serverUrl: 'https://my-json-server.typicode.com/RecyTech/RecyTech-fake-server/productos',
     siteName: 'Recytech'
 }
